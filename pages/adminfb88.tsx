@@ -28,10 +28,10 @@ function Adminfb88({result}:DBdata) {
 }
 
 export const getServerSideProps: GetServerSideProps = async (context) => {
-        const db = await open({
-        filename: './database.sqlite',
-        driver: sqlite3.Database
-      }); 
+    //     const db = await open({
+    //     filename: './database.sqlite',
+    //     driver: sqlite3.Database
+    //   }); 
     //   await db.migrate({ migrationsPath:'./migrations',force: true});
     //   const result = await db.get('SELECT * FROM Admin');
     //   const result2 = await db.get('SELECT * FROM Information');
