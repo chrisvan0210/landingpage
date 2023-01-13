@@ -11,7 +11,7 @@ interface DBdata {
     }
 }
 
-function adminfb88({result}:DBdata) {
+function Adminfb88({result}:DBdata) {
     const [isLogin,setIsLogin] = useState(true)
     const router = useRouter()
    
@@ -43,4 +43,4 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
   }
 
 
-export default adminfb88
+export default Adminfb88
