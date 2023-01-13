@@ -33,10 +33,10 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
         driver: sqlite3.Database
       }); 
     //   await db.migrate({ migrationsPath:'./migrations',force: true});
-      const result = await db.get('SELECT * FROM Admin');
-      const result2 = await db.get('SELECT * FROM Information');
-      await db.close();
-
+    //   const result = await db.get('SELECT * FROM Admin');
+    //   const result2 = await db.get('SELECT * FROM Information');
+    //   await db.close();
+    const result = "result";
     return {
         props: {result},
       }
